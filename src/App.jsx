@@ -1,4 +1,4 @@
-import './App.css'
+
 import Home from './view/home.component'
 function App() {
 

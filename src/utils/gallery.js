@@ -59,5 +59,23 @@ const gallery=[
         verse:'Juan 20:31',
         author:'Biblia Reina-Valera 1602'
     },
+    {
+        title:'Mi desición de recibir a Cristo como mi salvador',
+        text:'Confesando a Dios que soy un pecador y creyendo que el Señor Jesucristo murió por mis pecados sobre la cruz y resucitó para mi justificación, yo le recibo y le confieso ahora como mi Salvador.',
+        verse:'',
+        author:''
+    },
+    {
+        title:'Buscando una Iglesia',
+        text:'Después de haber realizado su decisión para aceptar a Cristo, le animamos a que en oración busque una iglesia local que le pueda ayudar a crecer como Nuevo Cristiano a través de las claras enseñanzas de la Biblia.',
+        verse:'',
+        author:''
+    },
+    {
+        title:'Buscando una Iglesia',
+        text:'Antes bien crecer en la Gracia y el conocimiento de nuestro Señor y Salvador Jesucristo.',
+        verse:'2 Pedro 3:18',
+        author:'Biblia Reina-Valera 1602'
+    },
 ]
 export default gallery
