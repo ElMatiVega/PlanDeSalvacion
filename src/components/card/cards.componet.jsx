@@ -21,7 +21,19 @@ const Cards = ({ gallery }) => {
       : setCurrentVerse(currentVerse - 1);
   };
 
-  let handlerRender = () => {
+  let handlerRenderPrev = () => {
+    if(currentVerse !== 0){
+      return (
+        <button className="prevVerse" id="new-quote" onClick={prevVerse}>
+        <AiOutlineLeft />
+        </button>
+        )
+    }else{
+      return
+    }
+  }
+
+  let handlerRenderNext = () => {
     if (currentVerse + 1 === gallery.length) {
       return (
         <a href="https://www.facebook.com/iglesiacristianadeesperanza" target="_blank" rel="noreferrer"
@@ -55,11 +67,11 @@ const Cards = ({ gallery }) => {
             </div>
 
             <div className="btn">
-              <button className="prevVerse" id="new-quote" onClick={prevVerse}>
-                <AiOutlineLeft />
-              </button>
+             
+              {handlerRenderPrev()}
+             
               <button className="nextVerse" id="new-quote" onClick={nextVerse}>
-                {handlerRender()}
+                {handlerRenderNext()}
               </button>
             </div>
           </section>
