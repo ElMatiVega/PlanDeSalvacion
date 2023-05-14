@@ -119,28 +119,11 @@ h2{
     font-size: 0.75rem;
   }
 
-  .container__link {
-    position: absolute;
-    bottom: 1rem;
-    left: 50%;
-    transform: translate(-50%, 10%);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-decoration: none;
-    color: #2d7f0b;
-    opacity: 0;
-    padding: 10px;
-    transition: all 0.35s;
-  }
-  .container__link:hover svg {
-    transform: translateX(4px);
-  }
-  .container__link svg {
-    width: 18px;
-    margin-left: 4px;
-    transition: transform 0.3s;
-  }
+
+  .container__link:hover span  {
+    color:#dee8c2;
+  } 
+
   .container img {
     position: absolute;
     top: 0;

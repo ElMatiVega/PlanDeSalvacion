@@ -1,4 +1,3 @@
-
 import Home from './view/home.component'
 function App() {
 

@@ -22,6 +22,19 @@ const Cards = ({ gallery }) => {
       : setCurrentVerse(currentVerse - 1);
   };
 
+  let handlerRender =()=>{
+    if(currentVerse + 1 === gallery.length){
+    return(
+<a href="#" className="container__link">
+      <span>Mas info</span>
+      
+    </a>
+    )  
+    }else{
+      return <AiOutlineRight />
+    }
+  }
+
   return (
     <>
       <div className="container">
@@ -33,21 +46,7 @@ const Cards = ({ gallery }) => {
             <p className="container__text" id="text">
               {gallery[currentVerse].text}
             </p>
-            <a href="#" className="container__link">
-              <span>Contactenos</span>
-              <svg
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-                />
-              </svg>
-            </a>
+            
           </div>
 
           <div>
@@ -60,7 +59,9 @@ const Cards = ({ gallery }) => {
               <AiOutlineLeft/>
             </button>
             <button className="nextVerse" id="new-quote" onClick={nextVerse}>
-            <AiOutlineRight />
+           
+            {handlerRender()}
+            
             </button>
           </div>
         </section>
