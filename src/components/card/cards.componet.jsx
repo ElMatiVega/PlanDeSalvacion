@@ -24,7 +24,8 @@ const Cards = ({ gallery }) => {
   let handlerRender = () => {
     if (currentVerse + 1 === gallery.length) {
       return (
-        <a href="" className="container__link">
+        <a href="https://www.facebook.com/iglesiacristianadeesperanza" target="_blank" rel="noreferrer"
+        className="container__link">
           <span>Mas info</span>
         </a>
       );

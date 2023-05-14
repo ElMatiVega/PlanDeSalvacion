@@ -208,6 +208,9 @@ h1{
     }
     .container__text{
         font-size: 13px;
-       
-      }
+    }
+
+    span{
+        font-size: 13px;
+    }
 }
