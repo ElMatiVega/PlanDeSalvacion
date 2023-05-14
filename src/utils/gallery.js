@@ -12,19 +12,19 @@ const gallery=[
         author:'Biblia Reina-Valera 1602'
     },
     {
-        title:'El remedio de Dios para pecado',
+        title:'El remedio de Dios para el pecado',
         text:'Porque la paga del pecado es muerte, mas la dádiva de Dios es vida eterna en Cristo Jesús Señor nuestro.',
         verse:'Romanos 6:23',
         author:'Biblia Reina-Valera 1602'
     },
     {
-        title:'El remedio de Dios para pecado',
+        title:'El remedio de Dios para el pecado',
         text:'Mas a todos los que le recibieron, a los que creen en su nombre, les dio la potestad de ser hechos hijos de Dios.',
         verse:'Juan 1:12',
         author:'Biblia Reina-Valera 1602'
     },
     {
-        title:'El remedio de Dios para pecado',
+        title:'El remedio de Dios para el pecado',
         text:'Porque primeramente os he enseñado lo que asimismo recibí: Que Cristo murió por nuestros pecados, conforme a las Escritura; y que fue sepultado, y que resucitó al tercer día, conforme a las Escrituras.',
         verse:'1 Corintios 15:3,4',
         author:'Biblia Reina-Valera 1602'
