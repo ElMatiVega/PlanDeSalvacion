@@ -60,7 +60,7 @@ const gallery=[
         author:'Biblia Reina-Valera 1602'
     },
     {
-        title:'Mi desición de recibir a Cristo como mi salvador',
+        title:'Mi decisión de recibir a Cristo como mi salvador',
         text:'Confesando a Dios que soy un pecador y creyendo que el Señor Jesucristo murió por mis pecados sobre la cruz y resucitó para mi justificación, yo le recibo y le confieso ahora como mi Salvador.',
         verse:'',
         author:''
